@@ -1,0 +1,154 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
+/* -- utilidades  -- */
+.U-title{
+	color: #233471;
+	border-bottom: 2px dashed #233471;
+	font-weight: normal;
+	padding-bottom: .5em;
+	text-align: center;
+}
+
+/* -- nav --*/
+.MainMenu{
+	background-color: #1E1E1E;
+	height: 3.75em;
+	position: fixed;
+	left: 0;
+	right: 0;
+	text-align: center;
+	top: 0;
+}
+.MainMenu-list{
+	margin: 0;
+	padding: 0;
+}
+.MainMenu-item{
+	display: inline-block;
+}
+.MainMenu-link{
+	color: #00BDFF;
+	line-height: 2.75em;
+	margin-right: 1.5em;
+	text-decoration: none;
+
+}
+/*-- Header -- */
+.Header{
+	background-image: url(../img/bg1.jpg);
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+	margin-top: 3.75em;
+	padding: 1.2em; 
+	text-align: center;
+
+}
+.Header-imgContainer{
+	margin: 0;
+}
+.Header-img{
+	border: 5px solid white;
+	border-radius: 50%;
+}
+.Header-name, .Header-link{
+	color: white;
+	text-shadow: -1px -1px 1px #333, 1px -1px 1px #333, -1px 1px 1px #333, 1px 1px 1px #333;
+}
+.Header-link{
+	font-size: 2.5em;
+	font-weight: bold;
+	text-decoration: none;
+}
+.Header-name{
+	font-size: 1.5em;
+	font-weight: 300;
+	margin: 0;
+}
+/* -- Perfil --- */
+.Profile{
+	text-align: center;
+}
+.Profile-link{
+	background-color: #949390;
+	border-radius: .5em;
+	color: white;
+	margin-right: .5em;	
+	padding: .5em 1em;
+	text-decoration: none;
+}
+.Work{
+	margin-top: 2em;
+	text-align: center;
+}
+.Work-item{
+	display: inline-block;
+	margin-right: 1.8em;
+	margin-bottom: 1.8em;
+}
+.Work-imgContainer{
+	margin: 0;
+}
+.Work-description{
+	font-size: 1.1em;
+	color: #515151;
+	font-style: italic;
+}
+/* --  footer -- */
+.Footer{
+	background-image: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 2em 0;
+	text-align: center;
+}
+.Footer-form{
+	display: inline-block;
+	text-align: center;
+}
+.Footer-left{
+	display: inline-block;
+	margin-right: 2em;
+	text-align: center;
+	width: 32em;
+	vertical-align: top;
+}
+.Footer-title{
+	color: white;
+}
+
+.Footer-formInput,
+.Footer-textarea{
+	background: white;
+	border:none;
+	display: block;
+	margin: 0 auto 1em;
+	border-radius: .5em;
+	padding: .5em;
+}
+.Footer-textarea{
+	resize: none;
+}
+.Footer-button{
+	background: #949390;
+	color: white;
+	border-radius: .5em;
+	border:none;
+	padding: .5em;
+}
+.Footer-description{
+	color: white;
+}
+@media screen and (max-width: 800px){
+	.Profile-link{
+		display: inline-block;
+		margin-top: 1em;
+		width: 45%;
+	}
+	.Footer-left{
+		display: block;
+		margin: 0 auto;
+		width: 80%;
+	}
+
+}
